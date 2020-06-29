@@ -6,3 +6,6 @@
 // process.
 
 // alert(11)
+// alert(document.documentElement.innerHTML)
+// alert(navigator.userAgent)
+location.href = 'https://h5.hh128.com/'
