@@ -4,7 +4,8 @@
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-packager . myClient --win --out ./myClient --arch=x64 --app-version=0.0.1 --electron-version=9.0.5"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
